@@ -1,13 +1,11 @@
 <% provide(:title, "Home") %>
-<!DOCTYPE html>
-<html>
-<head>
-  <title><%= yield(:title) %> | Hacathon</title>
-</head>
-<body>
-<h1>Hackathon App</h1>
-<p>
-  Home Page
-</p>
-</body>
-</html>
+
+<div class="center jumbotron">
+  <h1>Hackathon pwww !!</h1>
+
+  <h2>
+    Welcome to Mars
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
